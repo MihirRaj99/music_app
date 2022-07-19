@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Music App</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="app.css">
+
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <div class="search-container">
+    <form action=""action_pag>
+      <input class = "search" type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+<a href="add_song.html" class="button">Add Songs</a>
+
+<div class = "main">
+<br>
+<br>
+<h2>Top 10 Songs</h2><br>
+<h3>Click on the audio image to play & Double Click to Pause </h3>
+<br>
+<br>
+<table>
+  <tr class="row">
+    <th>Artwork</th>
+    <th>Song</th>
+    <th>Year of Release</th>
+    <th>Artists</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td><img src="img/1.jpg" onclick="playsong1()" ondblclick="pausesong1()" alt="alan" height="100px" width="100px"></td>
+    <td>On My Way</td>
+    <td>2019</td>
+    <td>Alan Walker,Farruko,Sabrina Carpenter</td>
+    <td><div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div></td>
+  </tr>
+  <tr>
+    <td><img src="img/2.jpg" onclick="playsong2()" ondblclick="pausesong2()" alt="alan" height="100px" width="100px"></td>
+    <td>Faded</td>
+    <td>2016</td>
+    <td>Alan Walker</td>
+    <td><div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div></td>
+  </tr>
+  <tr>
+    <td><img src="img/3.jpg" onclick="playsong3()" ondblclick="pausesong3()" alt="alan" height="100px" width="100px"></td>
+    <td>Animals</td>
+    <td>2013</td>
+    <td>Martin Garrix</td>
+    <td><div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div></td>
+  </tr>
+  <tr>
+    <td><img src="img/4.jpg" onclick="playsong4()" ondblclick="pausesong4()" alt="alan" height="100px" width="100px"></td>
+    <td>High On Life</td>
+    <td>2018</td>
+    <td>Bonn,Martin Garrix</td>
+    <td><div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div></td>
+  </tr>
+  <tr>
+    <td><img src="img/5.jpg" onclick="playsong5()" ondblclick="pausesong5()" alt="alan" height="100px" width="100px"></td>
+    <td>Rap God</td>
+    <td>2013</td>
+    <td>Eminem</td>
+    <td><div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div></td>
+  </tr>
+  <tr>
+    <td><img src="img/6.jpg" onclick="playsong6()" ondblclick="pausesong6()" alt="alan" height="100px" width="100px"></td>
+    <td>Fight Back</td>
+    <td>2019</td>
+	<td>NEFFEX</td>
+	<td><div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div></td>
+  </tr>
+    <tr>
+    <td><img src="img/7.jpg" onclick="playsong7()" ondblclick="pausesong7()" alt="alan" height="100px" width="100px"></td>
+    <td>Believer</td>
+    <td>2018</td>
+    <td>Dan Reynolds</td>
+    <td><div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div></td>
+  </tr>
+    <tr>
+    <td><img src="img/8.jpg" onclick="playsong8()" ondblclick="pausesong8()" alt="alan" height="100px" width="100px"></td>
+    <td>Loco Contigo</td>
+    <td>2018</td>
+    <td>DJ Snake,Lil Jon</td>
+    <td><div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div></td>
+  </tr>
+    <tr>
+    <td><img src="img/9.jpg" onclick="playsong9()" ondblclick="pausesong9()" alt="alan" height="100px" width="100px"></td>
+    <td>Blinding Lights</td>
+    <td>2020</td>
+    <td>The Weeknd</td>
+    <td><div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div></td>
+  </tr>
+    <tr>
+    <td><img src="img/10.jpg" onclick="playsong10()" ondblclick="pausesong10()" alt="alan" height="100px" width="100px"></td>
+    <td>RISE</td>
+    <td>2022</td>
+    <td>League of Legends,Mako,The Glitch Mob,The Word Alive</td>
+    <td><div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div></td>
+  </tr>
+</table>
+<br>
+<br>
+<h2>Top Artists</h2>
+<br>
+<br>
+<table>
+  <tr class="row">
+    <th>Artists</th>
+    <th>Date of Birth</th>
+    <th>Songs</th>
+    
+  </tr>
+  <tr>
+    <td>Alan Walker</td>
+    <td>24 August 1997</td>
+    <td>Diamond Heart,Lost Control,Lily,On My Way,Sing me to sleep,The Spectre,Alone,All Falls Down</td>
+
+  <tr>
+    <td>Martin Garix</td>
+    <td>14 May 1996</td>
+    <td>Animals,Don't Look Down,In The Name Of Love,Ocean,Scared To Be Lonely,So Far Away</td>
+
+  </tr>
+  <tr>
+    <td>The Weeknd</td>
+    <td>16 February 1990</td>
+    <td>A Lonely Night,Acquainted,After Hours,Alone Again,Angel,Belong to the World,Blinding Lights</td>
+
+  </tr>
+  <tr>
+    <td>DJ Snake</td>
+    <td>13 June 1986</td>
+    <td>Turn Down for What,Loco Contigo,Let Me Love You,SG,Taki Taki</td>
+
+  </tr>
+  <tr>
+    <td>Dan Reynolds</td>
+    <td>14 July 1987</td>
+    <td>Bad Liar,Battle Cry,Believer,Bones,Cutthroat,Demons,Enemy,Follow You</td>
+ 
+  </tr>
+  <tr>
+    <td>NEFFEX</td>
+    <td>30 Mar 1992</td>
+    <td>Fight Back,Rumors,Grateful,Destiny,Best of Me</td>
+	
+  </tr>
+    <tr>
+    <td>Eminem</td>
+    <td>17 October 1972</td>
+    <td>Rap God,The Ringer,Greatest,Lucky You,Paul,Normal,Em Calls Paul</td>
+ 
+  </tr>
+  </table>
+<script src="app.js"></script>
+</body>
+</html>
